@@ -1,0 +1,46 @@
+/*font-family: 'Allura', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+.jumbotron {
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #52cacf;
+  font-family: "Allura", cursive;
+}
+
+.logo {
+  background-image: url(/images/logo-wreath.png);
+  background-repeat: no-repeat;
+}
+
+.jumbotron h1 {
+  font-size: 84px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.jumbotron h2 {
+  margin: 0;
+}
+
+.navbar {
+  background-color: whitesmoke;
+}
+
+ul {
+  list-style: none;
+}
+li a {
+  color: #138496;
+}
+
+li a:hover {
+  color: #138496;
+}
+
+footer {
+  padding: 30px;
+  background: radial-gradient(rgb(82, 202, 207) 0%, rgb(245, 245, 245) 100%);
+}
