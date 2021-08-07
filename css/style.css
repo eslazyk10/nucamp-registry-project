@@ -14,7 +14,7 @@ body {
 }
 
 .logo {
-  background-image: url(/images/logo-wreath.png);
+  background-image: url(/images/backgrounds/logo-wreath.png);
   background-repeat: no-repeat;
   z-index: 99;
   margin: 0;
@@ -46,7 +46,7 @@ body {
 }
 
 .index-top {
-  background-image: url(/images/hearts-sm.jpg);
+  background-image: url(/images/backgrounds/hearts-sm.jpg);
   min-height: 70vh;
 }
 
