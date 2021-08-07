@@ -61,16 +61,54 @@ body {
 }
 
 .index-reviews{
+  display: flex;
   background-color: rgba(67, 114, 122, 0.9);
+  padding: 25px;
 }
 
 #review{
-  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   color: whitesmoke;
+}
+
+.destination-top{
+  background-color: rgba(82, 202, 207, 0.2);
+  padding: 30px;
+}
+
+.destination-top h2{
+  text-align: center;
+  font-family: 'Allura', cursive;
+  font-weight: 600;
+  font-size: 55px;
+  letter-spacing: 1.5px;
+}
+
+.carousel-caption{
+  background-color: rgba(245, 245, 245, 0.5);
+  padding: 8px;
+  border-radius: 8px;
+  color: black;
+}
+
+.search-form{
+  text-align: center;
+
 }
 
 footer {
   padding: 30px;
   background: radial-gradient(rgb(82, 202, 207) 0%, rgb(245, 245, 245) 100%);
+}
+
+footer a{
+  color: black;
+}
+
+footer a:hover{
+  color: #138496;
 }
